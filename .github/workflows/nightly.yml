@@ -1,6 +1,8 @@
 name: Nightly Build
 
 on:
+  push:
+    branches: [ yakov/migration-selenium-update ]
   schedule:
     - cron: "0 22 * * *"
 
